@@ -35,32 +35,33 @@ Client → Controller → Service → Repository → Database
 ---
 
 ## Project Structure
-com.gowtham.careerflow
+```
+src/main/java/com/gowtham/careerflow
 │
 ├── controller
-│ └── JobController.java
+│   └── JobController.java
 │
 ├── service
-│ ├── JobService.java
-│ └── ApplicationService.java
+│   ├── JobService.java
+│   └── ApplicationService.java
 │
 ├── repository
-│ ├── JobRepository.java
-│ ├── UserRepository.java
-│ └── ApplicationRepository.java
+│   ├── JobRepository.java
+│   ├── UserRepository.java
+│   └── ApplicationRepository.java
 │
 ├── entity
-│ ├── User.java
-│ ├── Job.java
-│ └── Application.java
+│   ├── User.java
+│   ├── Job.java
+│   └── Application.java
 │
 ├── enums
-│ ├── Role.java
-│ ├── JobType.java
-│ └── ApplicationStatus.java
+│   ├── Role.java
+│   ├── JobType.java
+│   └── ApplicationStatus.java
 │
 └── CareerflowApplication.java
-
+```
 ---
 
 ## Database Tables
@@ -153,4 +154,4 @@ GET /applications/job/{jobId}
 
 ## Author
 
-Gowtham B
+Gowtham B 
