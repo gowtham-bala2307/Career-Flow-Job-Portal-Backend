@@ -1,0 +1,21 @@
+target/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Application properties (optional)
+# src/main/resources/application.properties
