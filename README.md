@@ -138,10 +138,6 @@ GET /applications/job/{jobId}
 - Git & GitHub
 
 ---
-## Screenshots
-
-### Create Job API (Postman)
-![Create Job](screenshots/create-job.png)
 
 ## Future Improvements
 
